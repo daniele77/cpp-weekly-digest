@@ -21,9 +21,6 @@ def main():
         e["source"] = "WG21 Papers"
         items.append(e)
 
-    for item in items:
-        print(item)
-
     report = generate_report(items)
 
     output = pathlib.Path("weekly_report.md")
