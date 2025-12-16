@@ -1,0 +1,70 @@
+/* =====================
+   C++ Weekly Digest Style
+   ===================== */
+
+   body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background-color: #fdfdfd;
+    color: #111;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #1e3a8a; /* blu elegante */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    color: #d97706; /* arancio-giallo per i link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+code {
+    background-color: #e5e7eb; /* grigio chiaro */
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+}
+
+pre {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+blockquote {
+    border-left: 4px solid #1e3a8a;
+    padding-left: 1rem;
+    color: #374151;
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d1d5db;
+    margin: 2rem 0;
+}
