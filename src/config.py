@@ -1,6 +1,6 @@
 from datetime import timedelta
 
-TIME_WINDOW = timedelta(days=70)
+TIME_WINDOW = timedelta(days=7)
 
 RSS_SOURCES = {
     "ISO C++ Blog": "https://isocpp.org/blog/rss",
