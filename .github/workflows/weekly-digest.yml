@@ -42,6 +42,8 @@ jobs:
               -s -c style.css \
               -o weekly_report.html
         
+      - name: Rename HTML to index.html for GitHub Pages
+        run: mv weekly_report.html index.html
 
       # Publish on GitHub Pages
       - name: Deploy to GitHub Pages
