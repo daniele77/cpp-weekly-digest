@@ -9,6 +9,7 @@ def generate_report(items):
     for section, entries in grouped.items():
         lines.append(f"## {section}\n")
         for e in entries:
-            lines.append(f"- **{e['title']}**  \n  {e['link']}\n")
+            lines.append(f"- [{e['title']}]({e['link']})\n")
 
     return "\n".join(lines)
+

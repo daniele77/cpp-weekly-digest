@@ -42,13 +42,6 @@ jobs:
               -s -c style.css \
               -o index.html
         
-      - name: Check HTML output
-        run: |
-            echo "MD output preview:"
-            head -n 20 weekly_report.md
-            echo "HTML output preview:"
-            head -n 20 index.html
-        
       # Publish on GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
